@@ -1,0 +1,8 @@
+
+Message server.
+in this server we need to invoke RPCs from the storage server, but we need to know where is this server. In the argument list, just include a new one: we need to specify the IP of the name of the rpc server
+
+for the monitor: we need to add a extra parameter in order to specify the hostname in which the rpcs are stored.
+
+
+Example: defining a service
